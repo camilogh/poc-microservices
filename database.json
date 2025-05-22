@@ -1,0 +1,33 @@
+{
+  "defaultEnv": "dev",
+  "dev": {
+    "driver": "mysql",
+    "host": { "ENV": "DB_HOST" },
+    "user": { "ENV": "DB_USER" },
+    "password": { "ENV": "DB_PASSWORD" },
+    "database": { "ENV": "DB_NAME" },
+    "port": 3306,
+    "multipleStatements": true,
+    "timezone": "Z"
+  },
+  "test": {
+    "driver": "mysql",
+    "host": { "ENV": "DB_HOST_TEST" },
+    "user": { "ENV": "DB_USER_TEST" },
+    "password": { "ENV": "DB_PASSWORD_TEST" },
+    "database": { "ENV": "DB_NAME_TEST" },
+    "port": 3306,
+    "multipleStatements": true,
+    "timezone": "Z"
+  },
+  "prod": {
+    "driver": "mysql",
+    "host": { "ENV": "DB_HOST_PROD" },
+    "user": { "ENV": "DB_USER_PROD" },
+    "password": { "ENV": "DB_PASSWORD_PROD" },
+    "database": { "ENV": "DB_NAME_PROD" },
+    "port": 3306,
+    "multipleStatements": true,
+    "timezone": "Z"
+  }
+}

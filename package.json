@@ -1,0 +1,24 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "microservicio demo para manejo de usuarios",
+  "main": "user-service/src/app.js",
+  "scripts": {
+    "start": "node user-service/src/app.js",
+    "start-orders": "node orders-service/src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "users"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "db-migrate": "^0.11.14",
+    "db-migrate-mysql": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}

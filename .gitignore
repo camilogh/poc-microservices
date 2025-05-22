@@ -1,0 +1,23 @@
+# Directorios de módulos de Node
+node_modules/
+
+# Variables de entorno
+.env
+
+# Archivos de logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de caché del SO
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs (opcional, si usas VS Code, por ejemplo)
+.vscode/
+.idea/
+
+# Carpetas de distribución o compilación (si se generan)
+dist/
+build/
