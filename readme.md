@@ -1,3 +1,11 @@
+## 👥 Autores
+
+* [Juan Camilo Montoya](https://github.com/camilogh)
+* Moisés Castro
+* Anderson Florez
+
+---
+
 # POC de Microservicios: Sistema de Usuarios y Pedidos
 
 Este proyecto es una Prueba de Concepto (POC) que demuestra la implementación de una arquitectura de microservicios utilizando Node.js y Express, con bases de datos MySQL. El objetivo principal es ilustrar la comunicación síncrona entre microservicios independientes: un **Servicio de Usuarios** y un **Servicio de Pedidos**.
