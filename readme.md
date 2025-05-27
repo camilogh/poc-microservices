@@ -1,8 +1,8 @@
 ## 👥 Autores
 
 * [Juan Camilo Montoya](https://github.com/camilogh)
-* Moisés Castro
-* Anderson Florez
+* [Moises Castro](https://github.com/moisescastro13)
+* [Anderson Florez](https://github.com/aflorezgut123)
 
 ---
 
